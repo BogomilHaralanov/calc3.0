@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href='style.css'>
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>calc</title>
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <div class='title'>E-Mag Calculator</div>
+            <div>
+                <div>
+                    <input type="number" class="price">
+                    <input type="number" class="quantity">
+                </div>
+                <div>
+                    <input type="number" class="price1">
+                    <input type="number" class="quantity1">
+                </div>
+                <div>
+                    <input type="number" class="price2">
+                    <input type="number" class="quantity2">
+                </div>
+            </div>
+
+            <div><button class="mainbutton"> Calculate</button>
+                <button class="addgenius">Genius </button></div>
+
+            <div><button class="copyResult" onclick="copyToClipboard()">Copy
+                    Result</button>
+                <button class="copyGenius" onclick="copyToClipboardGen()">Copy
+                    Genius</button></div>
+            <div class="allResults">
+                <h4 class="result"></h4>
+                <h5 class="genius"></h5>
+                <h4 class="priceGen"></h4>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <button class="reload"
+                onClick="window.location.reload();">Reload</button>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+
+</html>
